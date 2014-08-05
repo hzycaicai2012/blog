@@ -1,3 +1,4 @@
 baseurl: /blog
 highlighter: pygments
-github: [Repository metadata]
+markdown: rdiscount
+pygments: true
