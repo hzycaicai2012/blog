@@ -37,6 +37,8 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-8 blog-main">
+            <h2 class="blog-post-title">{{ page.title }}</h2>
+            <p class="blog-post-meta">{{ post.date | date_to_string }} by hzy</p>
             {{ content }}
         </div>
         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
