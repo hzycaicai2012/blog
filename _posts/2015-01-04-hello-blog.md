@@ -1,5 +1,6 @@
 ---
 layout: blog
+title : hello blog
 blog_title : hello blog
 blog_meta : post by hzy
 ---
