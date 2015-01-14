@@ -1,6 +1,6 @@
 ---
 layout: blog
-blog_title : hello world
+blog_title : hello blog
 blog_meta : {{ page.date | date_to_string }} by hzy
 ---
 <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
