@@ -1,7 +1,7 @@
 ---
 layout: blog
 title : hello world
-blog_title : hello world
-blog_meta : post by hzy
 ---
-<p>hello blog</p>
+<h2 class="blog-post-title">{{ page.title }}</h2>
+<p class="blog-post-meta">{{ post.date | date_to_string }} by hzy</p>
+<p>just a hello wold</p>
